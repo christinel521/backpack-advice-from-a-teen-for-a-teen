@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466420EF24900557002C6DAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466420EE24900557002C6DAF /* AppDelegate.swift */; };
+		466420F124900557002C6DAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466420F024900557002C6DAF /* SceneDelegate.swift */; };
+		466420F324900557002C6DAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466420F224900557002C6DAF /* ViewController.swift */; };
+		466420F624900557002C6DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466420F424900557002C6DAF /* Main.storyboard */; };
+		466420F924900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 466420F724900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodeld */; };
+		466420FB2490055B002C6DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466420FA2490055B002C6DAF /* Assets.xcassets */; };
+		466420FE2490055B002C6DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466420FC2490055B002C6DAF /* LaunchScreen.storyboard */; };
+		466421092490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466421082490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenTests.swift */; };
+		466421142490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466421132490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466421052490055C002C6DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466420E324900557002C6DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466420EA24900557002C6DAF;
+			remoteInfo = "backpack; advice from a teen for a teen";
+		};
+		466421102490055C002C6DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466420E324900557002C6DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466420EA24900557002C6DAF;
+			remoteInfo = "backpack; advice from a teen for a teen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466420EB24900557002C6DAF /* backpack; advice from a teen for a teen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "backpack; advice from a teen for a teen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466420EE24900557002C6DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466420F024900557002C6DAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		466420F224900557002C6DAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		466420F524900557002C6DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466420F824900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = backpack__advice_from_a_teen_for_a_teen.xcdatamodel; sourceTree = "<group>"; };
+		466420FA2490055B002C6DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466420FD2490055B002C6DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		466420FF2490055B002C6DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466421042490055C002C6DAF /* backpack; advice from a teen for a teenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "backpack; advice from a teen for a teenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466421082490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backpack__advice_from_a_teen_for_a_teenTests.swift; sourceTree = "<group>"; };
+		4664210A2490055C002C6DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4664210F2490055C002C6DAF /* backpack; advice from a teen for a teenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "backpack; advice from a teen for a teenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466421132490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backpack__advice_from_a_teen_for_a_teenUITests.swift; sourceTree = "<group>"; };
+		466421152490055C002C6DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466420E824900557002C6DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466421012490055C002C6DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4664210C2490055C002C6DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466420E224900557002C6DAF = {
+			isa = PBXGroup;
+			children = (
+				466420ED24900557002C6DAF /* backpack; advice from a teen for a teen */,
+				466421072490055C002C6DAF /* backpack; advice from a teen for a teenTests */,
+				466421122490055C002C6DAF /* backpack; advice from a teen for a teenUITests */,
+				466420EC24900557002C6DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466420EC24900557002C6DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466420EB24900557002C6DAF /* backpack; advice from a teen for a teen.app */,
+				466421042490055C002C6DAF /* backpack; advice from a teen for a teenTests.xctest */,
+				4664210F2490055C002C6DAF /* backpack; advice from a teen for a teenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466420ED24900557002C6DAF /* backpack; advice from a teen for a teen */ = {
+			isa = PBXGroup;
+			children = (
+				466420EE24900557002C6DAF /* AppDelegate.swift */,
+				466420F024900557002C6DAF /* SceneDelegate.swift */,
+				466420F224900557002C6DAF /* ViewController.swift */,
+				466420F424900557002C6DAF /* Main.storyboard */,
+				466420FA2490055B002C6DAF /* Assets.xcassets */,
+				466420FC2490055B002C6DAF /* LaunchScreen.storyboard */,
+				466420FF2490055B002C6DAF /* Info.plist */,
+				466420F724900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodeld */,
+			);
+			path = "backpack; advice from a teen for a teen";
+			sourceTree = "<group>";
+		};
+		466421072490055C002C6DAF /* backpack; advice from a teen for a teenTests */ = {
+			isa = PBXGroup;
+			children = (
+				466421082490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenTests.swift */,
+				4664210A2490055C002C6DAF /* Info.plist */,
+			);
+			path = "backpack; advice from a teen for a teenTests";
+			sourceTree = "<group>";
+		};
+		466421122490055C002C6DAF /* backpack; advice from a teen for a teenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466421132490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenUITests.swift */,
+				466421152490055C002C6DAF /* Info.plist */,
+			);
+			path = "backpack; advice from a teen for a teenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466420EA24900557002C6DAF /* backpack; advice from a teen for a teen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466421182490055C002C6DAF /* Build configuration list for PBXNativeTarget "backpack; advice from a teen for a teen" */;
+			buildPhases = (
+				466420E724900557002C6DAF /* Sources */,
+				466420E824900557002C6DAF /* Frameworks */,
+				466420E924900557002C6DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "backpack; advice from a teen for a teen";
+			productName = "backpack; advice from a teen for a teen";
+			productReference = 466420EB24900557002C6DAF /* backpack; advice from a teen for a teen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466421032490055C002C6DAF /* backpack; advice from a teen for a teenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4664211B2490055C002C6DAF /* Build configuration list for PBXNativeTarget "backpack; advice from a teen for a teenTests" */;
+			buildPhases = (
+				466421002490055C002C6DAF /* Sources */,
+				466421012490055C002C6DAF /* Frameworks */,
+				466421022490055C002C6DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466421062490055C002C6DAF /* PBXTargetDependency */,
+			);
+			name = "backpack; advice from a teen for a teenTests";
+			productName = "backpack; advice from a teen for a teenTests";
+			productReference = 466421042490055C002C6DAF /* backpack; advice from a teen for a teenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4664210E2490055C002C6DAF /* backpack; advice from a teen for a teenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4664211E2490055C002C6DAF /* Build configuration list for PBXNativeTarget "backpack; advice from a teen for a teenUITests" */;
+			buildPhases = (
+				4664210B2490055C002C6DAF /* Sources */,
+				4664210C2490055C002C6DAF /* Frameworks */,
+				4664210D2490055C002C6DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466421112490055C002C6DAF /* PBXTargetDependency */,
+			);
+			name = "backpack; advice from a teen for a teenUITests";
+			productName = "backpack; advice from a teen for a teenUITests";
+			productReference = 4664210F2490055C002C6DAF /* backpack; advice from a teen for a teenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466420E324900557002C6DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Christine Lee";
+				TargetAttributes = {
+					466420EA24900557002C6DAF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					466421032490055C002C6DAF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 466420EA24900557002C6DAF;
+					};
+					4664210E2490055C002C6DAF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 466420EA24900557002C6DAF;
+					};
+				};
+			};
+			buildConfigurationList = 466420E624900557002C6DAF /* Build configuration list for PBXProject "backpack; advice from a teen for a teen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466420E224900557002C6DAF;
+			productRefGroup = 466420EC24900557002C6DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466420EA24900557002C6DAF /* backpack; advice from a teen for a teen */,
+				466421032490055C002C6DAF /* backpack; advice from a teen for a teenTests */,
+				4664210E2490055C002C6DAF /* backpack; advice from a teen for a teenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466420E924900557002C6DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466420FE2490055B002C6DAF /* LaunchScreen.storyboard in Resources */,
+				466420FB2490055B002C6DAF /* Assets.xcassets in Resources */,
+				466420F624900557002C6DAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466421022490055C002C6DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4664210D2490055C002C6DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466420E724900557002C6DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466420F324900557002C6DAF /* ViewController.swift in Sources */,
+				466420F924900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodeld in Sources */,
+				466420EF24900557002C6DAF /* AppDelegate.swift in Sources */,
+				466420F124900557002C6DAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466421002490055C002C6DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466421092490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4664210B2490055C002C6DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466421142490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466421062490055C002C6DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466420EA24900557002C6DAF /* backpack; advice from a teen for a teen */;
+			targetProxy = 466421052490055C002C6DAF /* PBXContainerItemProxy */;
+		};
+		466421112490055C002C6DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466420EA24900557002C6DAF /* backpack; advice from a teen for a teen */;
+			targetProxy = 466421102490055C002C6DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466420F424900557002C6DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466420F524900557002C6DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		466420FC2490055B002C6DAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466420FD2490055B002C6DAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466421162490055C002C6DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		466421172490055C002C6DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466421192490055C002C6DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "backpack; advice from a teen for a teen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.backpack--advice-from-a-teen-for-a-teen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4664211A2490055C002C6DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "backpack; advice from a teen for a teen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.backpack--advice-from-a-teen-for-a-teen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4664211C2490055C002C6DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "backpack; advice from a teen for a teenTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.backpack--advice-from-a-teen-for-a-teenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backpack; advice from a teen for a teen.app/backpack; advice from a teen for a teen";
+			};
+			name = Debug;
+		};
+		4664211D2490055C002C6DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "backpack; advice from a teen for a teenTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.backpack--advice-from-a-teen-for-a-teenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backpack; advice from a teen for a teen.app/backpack; advice from a teen for a teen";
+			};
+			name = Release;
+		};
+		4664211F2490055C002C6DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "backpack; advice from a teen for a teenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.backpack--advice-from-a-teen-for-a-teenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "backpack; advice from a teen for a teen";
+			};
+			name = Debug;
+		};
+		466421202490055C002C6DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "backpack; advice from a teen for a teenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.backpack--advice-from-a-teen-for-a-teenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "backpack; advice from a teen for a teen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466420E624900557002C6DAF /* Build configuration list for PBXProject "backpack; advice from a teen for a teen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466421162490055C002C6DAF /* Debug */,
+				466421172490055C002C6DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466421182490055C002C6DAF /* Build configuration list for PBXNativeTarget "backpack; advice from a teen for a teen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466421192490055C002C6DAF /* Debug */,
+				4664211A2490055C002C6DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4664211B2490055C002C6DAF /* Build configuration list for PBXNativeTarget "backpack; advice from a teen for a teenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4664211C2490055C002C6DAF /* Debug */,
+				4664211D2490055C002C6DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4664211E2490055C002C6DAF /* Build configuration list for PBXNativeTarget "backpack; advice from a teen for a teenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4664211F2490055C002C6DAF /* Debug */,
+				466421202490055C002C6DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		466420F724900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				466420F824900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodel */,
+			);
+			currentVersion = 466420F824900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodel */;
+			path = backpack__advice_from_a_teen_for_a_teen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 466420E324900557002C6DAF /* Project object */;
+}
