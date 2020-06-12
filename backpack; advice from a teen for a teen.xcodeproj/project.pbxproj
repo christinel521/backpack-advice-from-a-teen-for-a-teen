@@ -16,6 +16,10 @@
 		466420FE2490055B002C6DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466420FC2490055B002C6DAF /* LaunchScreen.storyboard */; };
 		466421092490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466421082490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenTests.swift */; };
 		466421142490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466421132490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenUITests.swift */; };
+		4693B20424934A920085928B /* StartingHighSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693B20324934A920085928B /* StartingHighSchool.swift */; };
+		4693B20624934B430085928B /* HarderClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693B20524934B430085928B /* HarderClasses.swift */; };
+		4693B20824935AB50085928B /* SummerBeforeSenior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693B20724935AB50085928B /* SummerBeforeSenior.swift */; };
+		4693B20A24935B790085928B /* AffirmationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693B20924935B790085928B /* AffirmationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		4664210F2490055C002C6DAF /* backpack; advice from a teen for a teenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "backpack; advice from a teen for a teenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		466421132490055C002C6DAF /* backpack__advice_from_a_teen_for_a_teenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backpack__advice_from_a_teen_for_a_teenUITests.swift; sourceTree = "<group>"; };
 		466421152490055C002C6DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4693B20324934A920085928B /* StartingHighSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingHighSchool.swift; sourceTree = "<group>"; };
+		4693B20524934B430085928B /* HarderClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarderClasses.swift; sourceTree = "<group>"; };
+		4693B20724935AB50085928B /* SummerBeforeSenior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerBeforeSenior.swift; sourceTree = "<group>"; };
+		4693B20924935B790085928B /* AffirmationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		466420E224900557002C6DAF = {
 			isa = PBXGroup;
 			children = (
+				4693B20924935B790085928B /* AffirmationsViewController.swift */,
+				4693B20724935AB50085928B /* SummerBeforeSenior.swift */,
+				4693B20524934B430085928B /* HarderClasses.swift */,
+				4693B20324934A920085928B /* StartingHighSchool.swift */,
 				466420ED24900557002C6DAF /* backpack; advice from a teen for a teen */,
 				466421072490055C002C6DAF /* backpack; advice from a teen for a teenTests */,
 				466421122490055C002C6DAF /* backpack; advice from a teen for a teenUITests */,
@@ -263,8 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				466420F324900557002C6DAF /* ViewController.swift in Sources */,
+				4693B20424934A920085928B /* StartingHighSchool.swift in Sources */,
+				4693B20A24935B790085928B /* AffirmationsViewController.swift in Sources */,
 				466420F924900557002C6DAF /* backpack__advice_from_a_teen_for_a_teen.xcdatamodeld in Sources */,
+				4693B20824935AB50085928B /* SummerBeforeSenior.swift in Sources */,
 				466420EF24900557002C6DAF /* AppDelegate.swift in Sources */,
+				4693B20624934B430085928B /* HarderClasses.swift in Sources */,
 				466420F124900557002C6DAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
